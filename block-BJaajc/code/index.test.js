@@ -87,6 +87,3 @@ test("expect area for circle with radius 4 to be 76", () => {
 test("expect area for circle with radius 10 to be 54", () => {
   expect(getArea(10)).not.toBe(`The area is 54`);
 });
-test("expect area for circle with radius 12 to be 56", () => {
-  expect(getArea(12)).not.toBe(`The area is 56`);
-});
